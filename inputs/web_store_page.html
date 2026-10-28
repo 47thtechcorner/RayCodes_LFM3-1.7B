@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ApexGear Pro Store - E-Commerce Flow</title>
+</head>
+<body>
+  <div id="store-app" data-testid="store-root">
+    <header class="navbar">
+      <div class="logo">ApexGear Edge Store</div>
+      <div class="search-bar">
+        <input type="text" id="product-search-input" placeholder="Search compact accessories..." />
+        <button id="search-submit-btn" type="button">Search</button>
+      </div>
+      <div class="cart-badge" id="cart-counter">Cart (0)</div>
+    </header>
+
+    <main class="product-catalog" id="catalog-section">
+      <div class="product-card" data-sku="AG-SSD-2TB" id="product-ag-ssd-2tb">
+        <h3 class="product-title">Apex Ultra-Fast 2TB NVMe Edge SSD</h3>
+        <span class="price" data-currency="USD" data-amount="149.99">$149.99</span>
+        <p class="description">Gen5 NVMe external SSD engineered for local LLM cache storage and on-device model checkpoints.</p>
+        <div class="product-actions">
+          <label for="qty-select-ssd">Qty:</label>
+          <select id="qty-select-ssd" name="quantity">
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="4">4</option>
+          </select>
+          <button class="btn-add-cart" id="add-to-cart-ssd" data-action="add-item">Add to Cart</button>
+        </div>
+      </div>
+    </main>
+
+    <div class="checkout-drawer" id="checkout-drawer-modal" style="display:none;">
+      <h2>Order Summary</h2>
+      <div id="cart-item-list"></div>
+      <div class="shipping-info">
+        <input type="text" id="shipping-name" placeholder="Full Name" value="Alex Rivera" />
+        <input type="email" id="shipping-email" placeholder="Email Address" value="alex.rivera@edge-ai.io" />
+        <select id="shipping-method">
+          <option value="express-priority" selected>Express 1-Day Priority</option>
+          <option value="standard-ground">Standard Ground</option>
+        </select>
+      </div>
+      <div class="action-buttons">
+        <button id="btn-proceed-checkout" class="btn-primary">Proceed to Payment</button>
+        <button id="btn-cancel-checkout" class="btn-secondary">Cancel</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

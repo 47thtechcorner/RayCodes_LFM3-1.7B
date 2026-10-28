@@ -1,0 +1,11 @@
+{
+  "ticket_id": "TCK-88491-PRO",
+  "timestamp": "2026-10-28T09:41:15Z",
+  "customer_channel": "urgent-support-slack",
+  "customer_meta": {
+    "account_tier": "enterprise_gold",
+    "region": "us-east-va",
+    "organization": "FinScale Systems"
+  },
+  "raw_inquiry_message": "Hello support desk, our automated billing just ran on invoice #INV-7731 for $420.00, but our engineering team only used the edge inference cluster for 12 hours before halting our pipeline. We are on the enterprise tier and were promised the prorated discount. Please immediately issue a partial credit refund of $240.00 back to our corporate card ending in 8812 and escalate this to priority queue tier 1."
+}
