@@ -1,8 +1,8 @@
 <div align="center">
-  <a href="https://youtu.be/qAUiahzraFw">
-    <img src="https://img.youtube.com/vi/qAUiahzraFw/0.jpg" alt="ChatGPT Killer in Your Pocket: LFM3-1.7B Local Agent Tutorial!">
+  <a href="https://youtu.be/9W65wLAiwEQ">
+    <img src="https://img.youtube.com/vi/9W65wLAiwEQ/0.jpg" alt="Liquid AI Just Dropped LFM3: The 1GB Local AI Agent That Beats Qwen 9B!">
   </a>
-  <h3>📺 <a href="https://youtu.be/qAUiahzraFw">Watch the full tutorial on YouTube</a></h3>
+  <h3>📺 <a href="https://youtu.be/9W65wLAiwEQ">Watch the full tutorial on YouTube</a></h3>
 </div>
 
 # LiquidAI/LFM3-1.7B: Local Tri-Hybrid Edge Agent
